@@ -1,0 +1,20 @@
+git init
+  502  git branch -M main
+  503  git remote add origin https://github.com/NosliwKuns/20230605-AntoniQuispealaya.git       
+  504  touch comandos.txt main.js index.html
+  505  git add .
+  506  git commit -m "commit 01 de AntoniQuispealaya"
+  507  git push -u origin main
+  508  ls
+       git checkout -b feature
+  509  mkdir Hardware Software SeguridadInformatica
+  510  touch Hardware/resumen.txt
+  511  cp Hardware/resumen.txt Software/
+  512  cp Hardware/resumen.txt SeguridadInformatica/
+  513  git add .
+  514  git commit -m "commit 02 de AntoniQuispealaya"
+  515  git push origin feature
+  516  git checkout main
+  517  mv main.js resumenHardware.txt
+  518  mv index.html resumenSoftware.txt
+  519  history
